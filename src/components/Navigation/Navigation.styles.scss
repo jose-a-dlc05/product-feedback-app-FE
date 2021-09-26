@@ -1,0 +1,41 @@
+.logo-block {
+	background: rgb(232, 77, 112);
+	background: radial-gradient(
+		circle,
+		rgba(232, 77, 112, 1) 0%,
+		rgba(163, 55, 246, 1) 50%,
+		rgba(40, 167, 237, 1) 100%
+	);
+	color: #ffffff;
+	padding-top: 4rem;
+}
+
+.roadmap__title {
+	display: flex;
+	justify-content: space-between;
+}
+
+.roadmap__status {
+	display: flex;
+	justify-content: space-between;
+}
+
+.statuses {
+	width: 80%;
+	.status-dot {
+		display: inline-block;
+		padding: 3px;
+		margin-right: 1rem;
+		margin-bottom: 3px;
+		border-radius: 50%;
+	}
+	.planned-color {
+		background-color: #f49f85;
+	}
+	.progress-color {
+		background-color: #ad1fea;
+	}
+	.live-color {
+		background-color: #62bcfa;
+	}
+}
