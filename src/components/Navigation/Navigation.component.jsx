@@ -3,8 +3,8 @@ import './Navigation.styles.scss';
 
 function Navigation() {
 	return (
-		<div className='tile is-vertical is-8'>
-			<div className='tile'>
+		<div className='columns'>
+			<div className='column is-4 tile'>
 				<div className='tile is-parent is-vertical'>
 					<article className='tile is-child notification logo-block'>
 						<h3 className='title'>Wombat</h3>
@@ -50,6 +50,32 @@ function Navigation() {
 						</div>
 					</article>
 				</div>
+			</div>
+			<div className='column is-8 mt-3'>
+				<nav className='navbar' role='navigation' aria-label='main navigation'>
+					<div class='navbar-brand'>
+						<a class='navbar-item' href='https://bulma.io'>
+							<img
+								src='https://bulma.io/images/bulma-logo.png'
+								alt='Bulma: Free, open source, and modern CSS framework based on Flexbox'
+								width='112'
+								height='28'
+							/>
+						</a>
+
+						<a
+							role='button'
+							class='navbar-burger'
+							aria-label='menu'
+							aria-expanded='false'
+							href='google'
+						>
+							<span aria-hidden='true'></span>
+							<span aria-hidden='true'></span>
+							<span aria-hidden='true'></span>
+						</a>
+					</div>
+				</nav>
 			</div>
 		</div>
 	);

@@ -5,12 +5,7 @@ import Navigation from '../components/Navigation/Navigation.component';
 function Suggestions() {
 	return (
 		<div className='container'>
-			<div class='columns'>
-				<div class='column is-two-fifths tile'>
-					<Navigation />
-				</div>
-				<Banner />
-			</div>
+			<Navigation />
 		</div>
 	);
 }
