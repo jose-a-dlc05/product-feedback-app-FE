@@ -1,23 +1,15 @@
 import React from 'react';
+import Banner from '../components/Banner/Banner.component';
+import Navigation from '../components/Navigation/Navigation.component';
 
 function Suggestions() {
 	return (
-		// Grid Layout
 		<div className='container'>
 			<div class='columns'>
 				<div class='column is-two-fifths tile'>
-					<div className='tile is-vertical is-8'>
-						<div className='tile'>
-							<div className='tile is-parent is-vertical'>
-								<article className='tile is-child notification is-primary'>
-									<p className='title'>Vertical...</p>
-									<p className='subtitle'>Top tile</p>
-								</article>
-							</div>
-						</div>
-					</div>
+					<Navigation />
 				</div>
-				<div class='column'>Banner</div>
+				<Banner />
 			</div>
 		</div>
 	);
