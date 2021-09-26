@@ -11,18 +11,20 @@ function Navigation() {
 						<p className='subtitle'>Feedback Board</p>
 					</article>
 					<article className='tile is-child notification'>
-						<span class='tag is-grey is-medium mx-3 my-1'>All</span>
-						<span class='tag is-grey is-medium mx-3 my-1'>UI</span>
-						<span class='tag is-grey is-medium mx-3 my-1'>UX</span>
-						<span class='tag is-grey is-medium mx-3 my-1'>Enhancement</span>
-						<span class='tag is-grey is-medium mx-3 my-1'>Bug</span>
-						<span class='tag is-grey is-medium mx-3 my-1'>Feature</span>
+						<span class='tag tag-btn is-medium mx-3 my-1 active-tag'>All</span>
+						<span class='tag tag-btn is-medium mx-3 my-1'>UI</span>
+						<span class='tag tag-btn is-medium mx-3 my-1'>UX</span>
+						<span class='tag tag-btn is-medium mx-3 my-1'>Enhancement</span>
+						<span class='tag tag-btn is-medium mx-3 my-1'>Bug</span>
+						<span class='tag tag-btn is-medium mx-3 my-1'>Feature</span>
 					</article>
 					<article className='tile is-child notification'>
 						<div className='roadmap__title'>
 							<div className='title is-size-6'>Roadmap</div>
 							<span>
-								<a href='google'>View</a>
+								<a href='google' className='roadmap__link'>
+									View
+								</a>
 							</span>
 						</div>
 						<div className='roadmap__status'>
