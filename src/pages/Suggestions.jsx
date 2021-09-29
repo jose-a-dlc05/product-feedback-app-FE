@@ -3,16 +3,7 @@ import Banner from '../components/Banner/Banner.component';
 import Navigation from '../components/Navigation/Navigation.component';
 
 function Suggestions() {
-	return (
-		<div className='container'>
-			<div class='columns'>
-				<div class='column is-two-fifths tile'>
-					<Navigation />
-				</div>
-				<Banner />
-			</div>
-		</div>
-	);
+	return <Navigation />;
 }
 
 export default Suggestions;
