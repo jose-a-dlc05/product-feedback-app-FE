@@ -19,7 +19,7 @@ function Navigation() {
 			</div>
 			<div className='column is-8 mt-3'>
 				<Navbar />
-				<div class='tile is-parent'>
+				<div class='tile is-parent '>
 					<article class='tile is-child notification is-danger'>
 						<p class='title'>Wide tile</p>
 						<p class='subtitle'>Aligned with the right tile</p>
