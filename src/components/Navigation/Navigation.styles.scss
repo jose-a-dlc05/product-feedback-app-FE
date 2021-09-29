@@ -67,17 +67,21 @@
 	background-color: #373f68;
 	border-radius: 10px;
 
+	&-brand {
+		margin-left: -1em;
+	}
+
 	&-item {
 		img {
-			width: 20px;
-			height: 19px;
+			width: 23px;
+			height: 24px;
 		}
 	}
 
 	.suggestions__amount {
 		color: #ffffff;
 		font-weight: bolder;
-		font-size: 0.9em;
+		font-size: 1.1em;
 	}
 }
 
@@ -128,7 +132,6 @@
 		font-weight: bolder;
 		font-size: 0.9rem;
 		border: none;
-		margin-left: 4em;
 
 		&:hover {
 			background-color: #c75af6;
@@ -143,7 +146,9 @@
 .nav-flex {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: space-around;
+	flex-grow: 1;
+	padding: 5px;
 	.nav-left {
 		display: flex;
 		align-items: center;
@@ -152,4 +157,8 @@
 	.nav-right {
 		width: 25%;
 	}
+}
+
+.notification {
+	background-color: #ffffff;
 }

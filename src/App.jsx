@@ -5,7 +5,9 @@ import Suggestions from './pages/Suggestions';
 function App() {
 	return (
 		<div className='App'>
-			<Suggestions />
+			<div className='container'>
+				<Suggestions />
+			</div>
 		</div>
 	);
 }
