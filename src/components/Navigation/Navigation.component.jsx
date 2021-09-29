@@ -6,6 +6,7 @@ import RoadmapTile from '../Roadmap_Tile/RoadmapTile.component';
 import Navbar from '../Navbar/Navbar.component';
 
 import './Navigation.styles.scss';
+import Feedback from '../Feedback/Feedback.component';
 
 function Navigation() {
 	return (
@@ -19,13 +20,7 @@ function Navigation() {
 			</div>
 			<div className='column is-8 mt-3'>
 				<Navbar />
-				<div class='tile is-parent '>
-					<article class='tile is-child notification is-danger'>
-						<p class='title'>Wide tile</p>
-						<p class='subtitle'>Aligned with the right tile</p>
-						<div class='content'></div>
-					</article>
-				</div>
+				<Feedback />
 			</div>
 		</div>
 	);
