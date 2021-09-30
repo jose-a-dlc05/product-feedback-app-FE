@@ -1,11 +1,11 @@
 import React from 'react';
 import FeedbackCard from '../FeedbackCard/FeedbackCard.component';
-import './Feedback.styles.scss';
+import styles from './Feedback.module.scss';
 
 function Feedback() {
 	return (
-		<div class='tile is-parent feedback'>
-			<section class='tile is-child notification'>
+		<div className={`tile is-parent ${styles.feedback}`}>
+			<section className='tile is-child notification'>
 				<FeedbackCard />
 			</section>
 		</div>

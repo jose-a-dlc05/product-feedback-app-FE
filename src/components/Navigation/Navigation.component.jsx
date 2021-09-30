@@ -11,14 +11,14 @@ import Feedback from '../Feedback/Feedback.component';
 function Navigation() {
 	return (
 		<div className='columns'>
-			<div className='column is-4 tile'>
+			<div className='column is-3 tile'>
 				<div className='tile is-parent is-vertical'>
 					<TitleTile />
 					<TagTile />
 					<RoadmapTile />
 				</div>
 			</div>
-			<div className='column is-8 mt-3'>
+			<div className='column is-9 mt-3'>
 				<Navbar />
 				<Feedback />
 			</div>

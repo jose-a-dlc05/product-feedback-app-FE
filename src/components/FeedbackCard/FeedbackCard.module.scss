@@ -1,0 +1,58 @@
+.feedbackCard {
+	width: 100%;
+	background-color: #ffffff;
+	padding: 0;
+	display: flex;
+	margin-top: 10px;
+	/*Vertical center alignment:*/
+	align-items: center;
+	justify-content: space-around;
+	flex-grow: 1;
+	.leftPos {
+		display: flex;
+		align-items: center;
+		flex-grow: 1;
+		.upvoteBtn {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			background-color: #f2f4fe;
+			border: none;
+			padding: 10px;
+			align-self: flex-start;
+			border-radius: 10px;
+
+			.arrow {
+				font-size: 1.2em;
+				color: #4661e6;
+				font-weight: bolder;
+			}
+
+			.upvoteAmt {
+				font-weight: bolder;
+			}
+		}
+		.cardContent {
+			justify-self: flex-start;
+			margin-left: 2em;
+			h4 {
+				font-size: 1.1em;
+				font-weight: bolder;
+				color: #3a4374;
+			}
+
+			p {
+				margin: 7px 0;
+			}
+		}
+
+		.commentAmt {
+			.commentIcon {
+				margin-right: 10px;
+			}
+			.commentNum {
+				font-weight: bold;
+			}
+		}
+	}
+}
